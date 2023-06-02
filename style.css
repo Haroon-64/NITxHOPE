@@ -87,7 +87,7 @@ nav{
 }
 
 
-@media(max-width: 700px){
+/*@media(max-width: 700px){
     .text-box h1{
         font-size:62px;
     }
@@ -104,7 +104,7 @@ nav{
         text-align: left;
         z-index: 2;
     }
-}
+}*/
 /*-------------------page2--------------*/
 .mission{
     padding: 10px;
@@ -115,6 +115,10 @@ nav{
     margin:auto ;
     
 }
+
+
+
+
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -138,6 +142,7 @@ p{
     margin-bottom: 16px;
     padding: 0 16px;
     margin-top: 26px;
+    
 }
 @media screen and (max-width: 650px) {
     .column {
@@ -148,6 +153,10 @@ p{
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 80%;
+    /*test*/
+    height: 350px; /* Adjust the height as needed */
+  overflow-y: auto;
+
   }
   .container{
     padding: 6px;
